@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <script src="./vendor/script.js" defer></script>
+    <title>Рандомайзер</title>
+  </head>
+  <body class="page">
+    <main class="content">
+
+      <div class="box step step_first isActive">
+        <button class="box__btn" data-value="short">Короткие</button>
+        <button class="box__btn" data-value="long">Длинные</button>
+        <button class="box__btn_random" data-value="random">Случайно</button>
+      </div>
+      <div class="box step step_second">
+        <button class="box__btn" data-value="color">Цвет</button>
+        <button class="box__btn" data-value="nude">Нюд</button>
+        <button class="box__btn box__btn_random">Случайно</button>
+      </div>
+      <div class="box step step_third">
+        <button class="box__btn box__btn_text_sm" data-value="design">С дизайном</button>
+        <button class="box__btn box__btn_text_sm" data-value="noDesign">Без дизайна</button>
+        <button class="box__btn box__btn_random">Случайно</button>
+      </div>
+      <div class="box step step_four">
+        <button class="box__btn" data-value="almond">Миндаль</button>
+        <button class="box__btn" data-value="square">Квадрат</button>
+        <button class="box__btn box__btn_random">Случайно</button>
+      </div>
+      <div class="box gallery">
+        <img
+          class="gallery-item test-img"
+          src="./images/nails/1.jpg"
+          alt=""
+          data-value="short color design almond"
+        />
+        <img
+          class="gallery-item"
+          src="./images/nails/2.jpg"
+          alt=""
+          data-value="short color design almond"
+        />
+        <img
+          class="gallery-item"
+          src="./images/nails/3.jpg"
+          alt=""
+          data-value="short color design almond"
+        />
+        <img
+          class="gallery-item"
+          src="./images/nails/4.jpg"
+          alt=""
+          data-value="short color design almond"
+        />
+        <img
+          class="gallery-item"
+          src="./images/nails/5.jpg"
+          alt=""
+          data-value="short color design almond"
+        />
+      </div>
+      <button type="button" class="showBtn">Показать?</button>
+    </main>
+  </body>
+</html>
