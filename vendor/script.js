@@ -1,9 +1,7 @@
 let steps = document.querySelectorAll('.step');
 let gallery = document.querySelector('.gallery');
-let boxs = document.querySelectorAll('.box');
+let boxes = document.querySelectorAll('.box');
 let images = gallery.querySelectorAll('.gallery-item');
-let testItem = document.querySelector('.test-img');
-let testAttr = testItem.getAttribute('data-value');
 const showBtn = document.querySelector('.showBtn');
 let totalTag = [];
 let filteredImages = [];
@@ -25,9 +23,9 @@ function randomazer(e) {
   }
   this.classList.toggle('isActive');
 
-  for (let i = 0; i < boxs.length; i++) {
-    if (this == boxs[i]) {
-      boxs[i + 1].classList.toggle('isActive');
+  for (let i = 0; i < boxes.length; i++) {
+    if (this == boxes[i]) {
+      boxes[i + 1].classList.toggle('isActive');
     }
   }
 
@@ -51,12 +49,10 @@ function filterImages() {
   images.forEach(el => {
     isIncludeAtt(el);
   });
-  console.log(filteredImages);
 }
 
 function showImageFiltered() {
   let randomImgId = Math.floor(Math.random() * filteredImages.length);
   filteredImages[randomImgId].classList.add('isActive');
-  console.log(randomImgId);
   showBtn.classList.remove('isActive');
 }
