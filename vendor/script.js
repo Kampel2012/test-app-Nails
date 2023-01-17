@@ -49,8 +49,6 @@ function showImageFiltered() {
   showImage();
 }
 
-/* FOR TEST star */
-
 let filtredArr = [];
 let winnerImgSrc = '';
 
@@ -70,8 +68,6 @@ function showImage() {
   gallery.classList.add('isActive');
   gallery.style.backgroundImage = `url(${winnerImgSrc})`;
 }
-
-/* FOR TEST end*/
 
 const imgsBaseObj = [
   { src: './images/nails/1.jpg', dataValue: 'short nude noDesign almond' },
