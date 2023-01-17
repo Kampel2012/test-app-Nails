@@ -43,9 +43,9 @@ function hideShowBtn() {
 }
 
 function showImageFiltered() {
-  hideShowBtn();
   imagesFilter();
   generateRandomImg();
+  hideShowBtn();
   showImage();
 }
 
