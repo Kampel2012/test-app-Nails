@@ -75,6 +75,17 @@
   padding: 0;
 }
 
+.gallery {
+  width: 380px;
+  height: 380px;
+  background-image: url();
+  object-fit: cover;
+  background-position: center;
+  background-size: 380px;
+  background-repeat: no-repeat;
+  display: none;
+}
+
 .isActive {
   display: flex;
 }
