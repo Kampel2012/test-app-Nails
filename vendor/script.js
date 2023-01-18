@@ -177,4 +177,6 @@ const imgsBaseObj = [
   { src: './images/nails/104.jpg', dataValue: 'short color noDesign almond' },
   { src: './images/nails/105.jpg', dataValue: 'short nude design square' },
   { src: './images/nails/106.jpg', dataValue: 'long nude noDesign square' },
+  { src: './images/nails/107.jpg', dataValue: 'short color noDesign square' },
+  { src: './images/nails/108.jpg', dataValue: 'short nude noDesign square' },
 ];
